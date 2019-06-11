@@ -8,7 +8,7 @@ A. vscode
 		3. open in browser
 		4. Bookmarks
 		5. Bracket Pair Colorizer
-
+--
 	
 	-----
 
