@@ -26,8 +26,48 @@
 </head>
 
 <body>
-   
-    
+    <h1>教室通訊錄</h1>
+   <form action="#" method="post" onsubmit = 'return test()'>
+        <div>
+            <label for="name">姓名:</label>
+        <input type="text" id='name'>
+        </div>
+        <div>
+            <label for="phone">電話:</label>
+        <input type="text" id='phone'> 
+        </div>
+        <div>
+            <span>性別:</span>
+            <input type="radio" name="sex" id='man' value="man">
+            <label for="man">男生</label>     
+            <input type="radio" name="sex" id='woman' value="woman">
+            <label for="woman">女生</label>
+        </div>
+        <div>
+            <span>技能(多選):</span>
+            <input type="checkbox" name='skill'>
+            <label for="man">Excel</label>
+            <input type="checkbox" name='skill'>
+            <label for="man">Word</label>
+            <input type="checkbox" name='skill'>
+            <label for="man">PowerPoint</label>
+            <input type="checkbox" name='skill'>
+        </div>
+        <div>
+            生日:<input type="date">
+        </div>
+        <div>
+            <span>身高</span>
+            <input type="range">
+        </div>
+        <input type="submit">
+
+   </form>
+    <script>
+        function test(){
+            return false;
+        }
+    </script>
 </body>
 
 </html>
